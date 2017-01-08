@@ -1,7 +1,10 @@
 body {
   -webkit-font-smoothing: antialiased;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+}
 section {
   background: #647df9;
   color: #7a90ff;
@@ -49,7 +52,7 @@ section {
 .pricing-palden .pricing-item {
   font-family: 'Open Sans', sans-serif;
   cursor: default;
-  color: #84697c;
+  color: #697285;
   background: #fff;
   box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);
   border-radius: 20px 20px 10px 10px;
@@ -69,7 +72,7 @@ section {
 }
 .pricing-palden .pricing-deco {
   border-radius: 10px 10px 0 0;
-  background: rgba(76, 70, 101, 0.99);
+  background: rgba(20, 110, 210, 1);
   padding: 4em 0 9em;
   position: relative;
 }
@@ -139,7 +142,7 @@ section {
   padding: 1em 2em;
   color: #fff;
   border-radius: 30px;
-  background: #11031B;
+  background: rgba(20, 110, 210, 1);
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
